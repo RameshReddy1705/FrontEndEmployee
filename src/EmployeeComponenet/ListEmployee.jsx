@@ -3,7 +3,7 @@ import { retriveAll} from "./Api/EmployeeServiceApi";
 import { Link, useNavigate } from "react-router-dom";
 
 function ListEmployee() {
-    const [employee, setEmployee] = useState([])
+    // const [employee, setEmployee] = useState([])
     const navigate=useNavigate()
     useEffect(
         ()=>refreshEmployee(),[]
